@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    background: #a9d0da;
+    border: none;
+}
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a9d0da;
+}   
+.key{
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    padding: 8px;
+    height: 8vh;
+    width: 8vh;
+}
+.ke{
+    background-image: url("images/keyboard-key.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
+.alpha{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space{
+    background-image: url('images/space-bar-key.png');
+    background-repeat: no-repeat;
+    /*background-position: contain;*/
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+}
